@@ -34,7 +34,6 @@ def LR():
 
     return jsonify({
         "prediction" :map[int(prediction)],
-
         "confidence": float(round(confidence, 4))
     })
 
